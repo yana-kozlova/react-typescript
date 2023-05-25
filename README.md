@@ -13,6 +13,7 @@ Short project description
 * **[Webpack](https://webpack.js.org/)** (5.x)
 * **[Typescript](https://www.typescriptlang.org/)**  (5.x)
 * **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** + [Fast Refresh](https://github.com/pmmmwh/react-refresh-webpack-plugin)
+* **[MUI](https://mui.com/)** (5.x) Material UI is an open-source React component library that implements Google's Material Design. 
 * Image support
 * Fonts support
 * [SASS](http://sass-lang.com/) support
