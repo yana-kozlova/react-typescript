@@ -13,6 +13,7 @@ Short project description
 * **[Webpack](https://webpack.js.org/)** (5.x)
 * **[Typescript](https://www.typescriptlang.org/)**  (5.x)
 * **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** + [Fast Refresh](https://github.com/pmmmwh/react-refresh-webpack-plugin)
+* **[MUI](https://mui.com/)** (5.x) Material UI is an open-source React component library that implements Google's Material Design. 
 * Image support
 * Fonts support
 * [SASS](http://sass-lang.com/) support
@@ -37,15 +38,15 @@ Short project description
 
 **All commands**
 
-Command | Description
---- | ---
-`npm run dev` | Build app continuously (HMR enabled) and serve @ `http://localhost:3000`
-`npm run build:prod` | Build app once (HMR disabled) to `/build/`
-`npm run build:dev` | Build app to `/build/`
-`npm run lint` | Run linter
-`npm run lint:fix` | Run linter and fix issues
-`npm run prettier` | Run prettier
-`npm run prettier:fix` | Run prettier and fix issues
+| Command                | Description                                                              |
+|------------------------|--------------------------------------------------------------------------|
+| `npm run dev`          | Build app continuously (HMR enabled) and serve @ `http://localhost:3000` |
+| `npm run build:prod`   | Build app once (HMR disabled) to `/build/`                               |
+| `npm run build:dev`    | Build app to `/build/`                                                   |
+| `npm run lint`         | Run linter                                                               |
+| `npm run lint:fix`     | Run linter and fix issues                                                |
+| `npm run prettier`     | Run prettier                                                             |
+| `npm run prettier:fix` | Run prettier and fix issues                                              |
 
 **Note**: replace `npm` with `yarn` in `package.json` if you use yarn.
 

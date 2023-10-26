@@ -1,16 +1,20 @@
-import { Route, RouteProps, Routes } from 'react-router-dom';
+import { Route, type RouteProps, Routes } from "react-router-dom";
 
-import { AppRoutes } from 'router/Routes';
+import { AppRoutes } from "router/Routes";
 
-const useRouter = () => {
-  const createRoute = ({ element, path }: RouteProps) => {
+interface CreateRouteType {
+  createRoute: ({ element, path }: RouteProps) => JSX.Element;
+}
+
+const useRouter = (): CreateRouteType => {
+  const createRoute = ({ element, path }: RouteProps): JSX.Element => {
     return <Route path={path} element={element} key={path} />;
   };
 
   return { createRoute };
 };
 
-export const Router = () => {
+export const Router = (): JSX.Element => {
   const { createRoute } = useRouter();
   return <Routes>{AppRoutes.map(createRoute)}</Routes>;
 };

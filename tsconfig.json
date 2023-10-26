@@ -9,12 +9,15 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
       "@icons/*": ["assets/icons/*"],
       "@images/*": ["assets/images/*"],
       "*": ["./src/*"],
-    }
+    },
+    "lib": ["es6", "dom"],
+    "noImplicitThis": true,
   },
   "ts-node": {
     "compilerOptions": {

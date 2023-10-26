@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
-import { fontStyles } from './fontStyles';
-import { COLOR } from './variables.enum';
+import { fontStyles } from "./fontStyles";
+import { COLOR } from "./variables.enum";
 
 export const GlobalStyles = createGlobalStyle`
   ${fontStyles}

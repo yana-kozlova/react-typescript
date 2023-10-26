@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Cross from '@icons/cross.svg';
+import Cross from "@icons/cross.svg";
 
 export const NotFound: React.FC = () => {
   return (
